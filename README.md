@@ -1,22 +1,24 @@
-<img src="https://github.com/exyte/Macaw/blob/master/header.png">
+<a href="https://exyte.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/exyte/media/master/common/header-dark.png"><img src="https://raw.githubusercontent.com/exyte/media/master/common/header-light.png"></picture></a>
+
+<a href="https://exyte.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/exyte/media/master/common/our-site-dark.png" width="80" height="16"><img src="https://raw.githubusercontent.com/exyte/media/master/common/our-site-light.png" width="80" height="16"></picture></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/exyteHQ"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/exyte/media/master/common/twitter-dark.png" width="74" height="16"><img src="https://raw.githubusercontent.com/exyte/media/master/common/twitter-light.png" width="74" height="16">
+</picture></a> <a href="https://exyte.com/contacts"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/exyte/media/master/common/get-in-touch-dark.png" width="128" height="24" align="right"><img src="https://raw.githubusercontent.com/exyte/media/master/common/get-in-touch-light.png" width="128" height="24" align="right"></picture></a>
+
+<h1>❗Macaw Deprecated❗</h1>
+
+Check out <a href="https://github.com/exyte/Macaw/wiki/Deprecation">this post</a> for deatils. **TL;DR**:
+* You can continue to use this framework as is: expect no new features or bug fixing; however, it will be updated to work in future Xcode releases.
+* if you need some good declarative UI framework, please use [SwiftUI](https://developer.apple.com/xcode/swiftui/).
+* If you need a powerful SVG support, please use [SVGView](https://github.com/exyte/SVGView).
+* If you’d like to fix something in Macaw, feel free to fork this repo. Publish your PRs so that other people can use it as well. Some PRs will be merged from time to time.
+
+<h1 align="center"></h1>
+
 <img align="right" src="https://raw.githubusercontent.com/exyte/Macaw/master/demo.gif" width="480" />
 
 <p><h1 align="left">Macaw</h1></p>
 
 <p><h4>Powerful and easy-to-use vector graphics Swift library with SVG support</h4></p>
 
-___
-
-<p> We are a development agency building
-  <a href="https://clutch.co/profile/exyte#review-731233">phenomenal</a> apps.</p>
-
-</br>
-
-<a href="https://exyte.com/contacts"><img src="https://i.imgur.com/vGjsQPt.png" width="134" height="34"></a> <a href="https://twitter.com/exyteHQ"><img src="https://i.imgur.com/DngwSn1.png" width="165" height="34"></a>
-
-</br></br>
-
-[![CI Status](https://travis-ci.org/exyte/Macaw.svg?style=flat)](https://travis-ci.org/exyte/Macaw)
 [![Version](https://img.shields.io/cocoapods/v/Macaw.svg?style=flat)](http://cocoapods.org/pods/Macaw)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-0473B3.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Macaw.svg?style=flat)](http://cocoapods.org/pods/Macaw)
@@ -80,9 +82,11 @@ We're working hard to provide full documentation. Currently you can take a look 
 
 [Macaw-Examples](https://github.com/exyte/macaw-examples) is a repository where you can find various usages of the `Macaw` library from simple charts to the complex periodic table.
 
-<img src="http://i.imgur.com/rQIh3qD.gif" height="280"> <img src="http://i.imgur.com/bIgHtzt.gif" height="280"> <img src="http://i.imgur.com/NiBT2rv.gif" height="280"> <img src="http://i.imgur.com/Un8TJKc.gif" height="280">
+<img src="http://i.imgur.com/rQIh3qD.gif" width="400"> 
 
-<img src="http://i.imgur.com/o6tBKW6.gif" height="280"><img src="http://i.imgur.com/1JXF60f.gif" height="280">
+<img src="http://i.imgur.com/bIgHtzt.gif" width="160"> <img src="http://i.imgur.com/NiBT2rv.gif" width="160"> <img src="http://i.imgur.com/Un8TJKc.gif" width="160">
+
+<img src="http://i.imgur.com/o6tBKW6.gif" width="160"><img src="http://i.imgur.com/1JXF60f.gif" width="160">
 
 
 ## Requirements
