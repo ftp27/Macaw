@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.3
 
 import PackageDescription
 
@@ -16,15 +16,18 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/drmohundro/SWXMLHash",
-            from: "6.0.0"
+            url: "https://github.com/ftp27/SWXMLHash",
+            from: "7.0.3"
         )
     ],
     targets: [
         .target(
             name: "Macaw",
             dependencies: ["SWXMLHash"],
-            path: "Source"
+            path: "Source",
+            resources: [
+                .process("PrivacyInfo.xcprivacy"),
+            ]
         ),
         .testTarget(
             name: "MacawTests",

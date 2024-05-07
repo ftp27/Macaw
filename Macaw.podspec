@@ -25,6 +25,11 @@ Pod::Spec.new do |s|
   s.source_files = [
      'Source/**/*.swift'
   ]
+  s.resource_bundles = {
+    'Macaw' => [
+      'Sources/PrivacyInfo.xcprivacy',
+    ]
+  }
 
   s.dependency 'SWXMLHash'
 end
